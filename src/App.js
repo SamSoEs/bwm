@@ -1,13 +1,16 @@
-import React, { Component } from 'react';
+import React from 'react';
 import Header from './components/shared/Header';
-import RentalHome from './pages/RentalHome'
-
+import { BrowserRouter as Router} from 'react-router-dom'
+import Routings from './Routings';
 const App = () => {
+
+  
+
   return (
-    <div>
+    <Router>
       <Header />
-      <RentalHome />
-    </div>
+      <Routings />
+    </Router>
   )
     
 }
