@@ -5,7 +5,7 @@ import Register from './pages/Register';
 
 const Routings = () => {
     return (
-      <div class="container bwm-container">
+      <div className="container bwm-container">
         <Routes>
           <Route path="/" element={<RentalHome />} />
           <Route path="/login" element={<Login />} />
